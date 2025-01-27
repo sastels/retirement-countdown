@@ -20,7 +20,7 @@ function updateCountdown() {
     const weekdaysRemaining = calculateWeekdaysUntil(targetDate);
     
     const countdownElement = document.getElementById('countdown');
-    countdownElement.textContent = `There are ${weekdaysRemaining} weekdays left until March 14, 2025!`;
+    countdownElement.textContent = `There are ${weekdaysRemaining} weekdays left until March 14, 2025`;
 }
 
 // Update countdown immediately when the page loads
